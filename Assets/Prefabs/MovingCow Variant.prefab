@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7791833814114658497, guid: ddbdd25ee9dd4b147b8c2f95452e5837, type: 3}
       propertyPath: m_Name
-      value: MovingCow
+      value: MovingCow Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddbdd25ee9dd4b147b8c2f95452e5837, type: 3}
@@ -62,6 +62,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7791833814114658497, guid: ddbdd25ee9dd4b147b8c2f95452e5837, type: 3}
   m_PrefabInstance: {fileID: 4708984360988510027}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &4127379635168083654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3277366817415851914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.7, y: 32.2, z: 48.6}
+  m_Center: {x: 0, y: 15.7, z: 0}
+--- !u!114 &577659114569940556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3277366817415851914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7f23228a1eee240ab28a3d038c5fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1064652515456444156
 MonoBehaviour:
   m_ObjectHideFlags: 0

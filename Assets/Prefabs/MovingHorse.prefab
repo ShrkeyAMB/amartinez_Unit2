@@ -109,6 +109,8 @@ GameObject:
   - component: {fileID: 1989604407577897612}
   - component: {fileID: 1961359026616872931}
   - component: {fileID: 5462602091847454174}
+  - component: {fileID: -6961351178622221571}
+  - component: {fileID: 1153073821866152146}
   m_Layer: 0
   m_Name: MovingHorse
   m_TagString: Untagged
@@ -185,6 +187,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+--- !u!65 &-6961351178622221571
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989604407585022020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.56, y: 39.13, z: 43.3}
+  m_Center: {x: 0, y: 19.36, z: 4.16}
+--- !u!114 &1153073821866152146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989604407585022020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7f23228a1eee240ab28a3d038c5fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1989604407585028126
 GameObject:
   m_ObjectHideFlags: 0

@@ -107,6 +107,8 @@ GameObject:
   - component: {fileID: 5783523472725833896}
   - component: {fileID: 5199500793222162873}
   - component: {fileID: 8289147837138058724}
+  - component: {fileID: 1459171389045230497}
+  - component: {fileID: 3659657947017585516}
   m_Layer: 0
   m_Name: Moving_Chick
   m_TagString: Untagged
@@ -179,6 +181,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!65 &1459171389045230497
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5783523472716349726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2, y: 31.8, z: 8.51}
+  m_Center: {x: 0, y: 16, z: 0}
+--- !u!114 &3659657947017585516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5783523472716349726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7f23228a1eee240ab28a3d038c5fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5783523472716350742
 GameObject:
   m_ObjectHideFlags: 0
